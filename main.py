@@ -1,10 +1,32 @@
+# # This is a sample Python script.
+#
+# # Press Umschalt+F10 to execute it or replace it with your code.
+# # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#
+# def compute_r2d2_population(step_amount: int) -> tuple[int,int,int]:
+#     young = 10
+#     adults = 10
+#     old = 10
+# 
+#     for step in range(step_amount):
+#         newYoung = adults * 4 + old * 2
+#         old = adults // 3
+#         adults = young // 2
+#         young = newYoung
+#
+#     return (young,adults,old)
+#
+#
+#
+#
+# def print_hi(name):
+#     print (compute_r2d2_population(1))
+#     # Use a breakpoint in the code line below to debug your script.
+#     print(f'Hi, {name}')  # Press Strg+F8 to toggle the breakpoint.
 
 
-def computeR2D2Population(steps:int) -> list[int]:
-    """
-    computes the population of R2D2s depending on given steps
-    :param steps: amount of steps as integer
-    :return: list which contains childs at index 0, adults at index 1 and old r2d2 at index 2
-    """
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
 
-    return [60,5,3]
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
